@@ -1,11 +1,10 @@
 {
   "functions": {
-    "api/index.py": {
+    "api/main.py": {
       "runtime": "now-php@1.0.0"
     }
   },
   "routes": [
     { "src": "/api/game", "dest": "main.py" }
-    { "src": "game", "dest": "/api/main.py" }
   ]
 }
