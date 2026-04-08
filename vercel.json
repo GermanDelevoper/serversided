@@ -5,6 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/game", "dest": "/api/main.py" }
+    { "src": "/api/game", "dest": "main.py" }
+    { "src": "game", "dest": "/api/main.py" }
   ]
 }
